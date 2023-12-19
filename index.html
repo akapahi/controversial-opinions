@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <script defer src = "./script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>CONTROVERSIAL OPINIONS</h1>
+    </header>
+    <div class="story container">
+        <div class="character left">
+            <img src="res/sushi-small.gif">
+        </div>
+        <div class="dialog left">
+            <p>
+                Pinapple belongs on a pizza!
+            </p>
+        </div>
+    </div>
+
+    <div class="story container">
+        <div class="dialog right">
+            <p>
+                "No Way! Let's play 5 rounds of Rock, Paper scissors to decide!"
+            </p>
+        </div>
+        <div class="character">
+            <img src="res/juicebox.gif">
+        </div>
+    </div>
+
+    <div class="btn container picker">
+        <p class="dialog">Which side are you on:</p>
+        <button id = 'sushi' class="side character"><img src="res/sushi static.png"></button>
+        <button id = 'grapefruit' class="side character"><img src="res/grapefruit static.png"></button>
+    </div>
+
+    <div id="rpc" class="btn container">
+        <button class="choice rpc">Rock</button>
+        <button class="choice rpc">Paper</button>
+        <button class="choice rpc">Scissors</button>
+    </div>
+
+    <div class="scr container">
+        <div class="crd container">
+            <div class="card">
+                <img src="res/sushi static.png">
+                <p class="sushi"></p>
+            </div>
+        
+          <div class="card">
+                <img src="res/grapefruit static.png">
+                <p class="grapefruit"></p>
+            </div>
+        </div>
+        <div>
+            <p class="comentary">abc</p>
+        </div>
+    </div>
+    
+</body>
+</html>

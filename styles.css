@@ -1,0 +1,143 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 40px;
+}
+
+header{
+    color: antiquewhite;
+    font-family: 'Source Code Pro', semi-bold;
+    font-weight: 600;
+    text-align: center;
+}
+
+.story.container{
+    border: solid 5px #bd89de;
+    margin-top: 10px;
+}
+
+.character{
+    flex: 1;
+}
+
+.character img{
+    height: 120px;
+    width: auto;
+    display: block;
+}
+
+.dialog{
+    flex: 4 1 0%;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: 400;
+    color: antiquewhite;
+}
+
+.score{
+    font-weight: 400;
+    color: antiquewhite;
+}
+
+.right{
+    text-align: end;
+}
+
+.left{
+    text-align: start;
+}
+
+.character.left img{
+    float: right;
+}
+
+.character.right img{
+    float: left;
+}
+
+.btn.container{
+    border: none;
+    padding-top: 20px;
+    justify-content: space-around;
+}
+
+.btn.container.picker{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    gap: 10px;
+}
+
+.side{
+    display: inline;
+    flex: none;
+    background-color: #e35153;
+    border: solid 4px #bd89de;
+    box-shadow: 2px 2px antiquewhite;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.choice{
+    padding: 10px 5px;
+    background-color: #bd89de;
+    color:antiquewhite;
+    font-family: 'Source Code Pro', monospace;
+    box-shadow: 2px 2px antiquewhite;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: none;
+    width: 100%;
+}
+
+
+body{
+    background-color: #e35153;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#rpc{
+    display: none;
+}
+
+.picker .dialog{
+    flex: none;
+}
+
+.scr.container{
+    align-items: center;
+    flex-direction: column;
+    gap:5px;
+}
+
+.crd.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.scr.container img{
+    height: 80px;
+    padding: 5px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 4px #bd89de;
+    margin-top: 10px;
+}
+
+.card p{
+    font-family: 'Source Code Pro', monospace;
+    color: antiquewhite;
+}
+
+.comentary{
+    font-family: 'Source Code Pro', monospace;
+    color: antiquewhite;
+    text-align: center;
+    margin-top: 5px;
+}
